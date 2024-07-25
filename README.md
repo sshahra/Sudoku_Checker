@@ -25,54 +25,97 @@ The program then generates a new grid by filling in the missing number and tries
 The program ends when the input is all zeros 
 
 Example Run
+
 7 2 4 8 6 5 1 3 9 
+
 5 1 9 2 4 3 8 7 6 
+
 3 0 6 7 9 1 5 4 2 
+
 1 7 8 6 2 9 4 5 3 
+
 9 4 3 1 5 8 2 6 7 
+
 6 5 2 3 7 4 9 1 8 
+
 2 3 1 5 8 6 7 9 4 
+
 8 9 5 4 3 7 6 2 1 
+
 4 6 7 9 1 2 3 8 5 
+
 7 2 4 8 6 5 1 3 9 
+
 5 1 9 2 4 3 8 7 6 
+
 3 8 6 7 9 1 5 4 2 
+
 1 7 8 6 2 9 4 0 3 
+
 9 4 3 1 5 8 2 0 7 
+
 6 5 2 3 7 4 9 1 8 
+
 2 3 1 5 8 6 7 9 4 
+
 8 9 5 4 3 7 6 2 1 
+
 4 6 7 9 1 2 3 8 5 
+
 7 2 4 8 6 5 1 3 9 
+
 5 1 9 2 4 3 8 7 6 
+
 3 8 6 7 9 1 5 4 2 
+
 1 7 8 6 2 9 4 5 3 
+
 9 4 3 1 5 8 2 6 7 
+
+
 6 5 2 3 7 4 0 0 8 
+
 2 3 1 5 8 6 7 0 4 
+
 8 9 5 4 3 7 6 2 1 
+
 4 6 7 9 1 2 3 8 5 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 0 
+
 0 0 0 0 0 0 0 0 0 
 
-(2,1,8) 				//This shows that in the first board, the value 8 
- 						//was missing at row 2, column 1 
-(3,7,5) (4,7,6) 		//This shows that in the second board, the value 5 
- 						//was missing from row 3, column 7 and the value 6 
- 						//was missing from row 4, column 7 
-(6,7,9) (5,6,9) (5,7,1) //This shows that in the third board, the value 9 
- 						//was missing from row 6, column 7, and the value 9 
- 						//was missing from row 5, column 6, and the value 1 
- 						//was missing from row 5, column 7 
- END 					//This message WILL be printed when a board of all 
- 						//zeros is entered. 
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+0 0 0 0 0 0 0 0 0 
+
+Output:-
+
+(2,1,8) 								
+
+//This shows that in the first board, the value 8 was missing at row 2, column 1 
+
+(3,7,5) (4,7,6) 				
+
+//This shows that in the second board, the value 5 was missing from row 3, column 7 and the value 6 was missing from row 4, column 7 
+
+(6,7,9) (5,6,9) (5,7,1) 
+
+//This shows that in the third board, the value 9 was missing from row 6, column 7, and the value 9 was missing from row 5, column 6, and the value 1 was missing from row 5, column 7 
+
+ END 										
+
+//This message WILL be printed when a board of all zeros is entered. 
  
  Date : 3/11/2023
  Name : Shubh Shahra
